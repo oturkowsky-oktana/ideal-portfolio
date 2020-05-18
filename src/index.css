@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+}
+table, td, th{
+  border: 1px solid #ddd;
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td{
+  padding: .5em;
+}
+th{
+  text-align: center;
+  background: #f9f9f9;
+}
+td{
+  text-align: right;
+}
+.selected-risk{
+  background: rgb(230, 255, 63);
+}
